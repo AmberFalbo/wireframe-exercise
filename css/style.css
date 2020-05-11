@@ -14,17 +14,6 @@ header img {
   display: inline-block;
 }
 
-nav ul {
-  display: inline-block;
-  vertical-align: top;
-}
-
-nav li {
-  display: inline-block;
-  line-height: 5px;
-  padding: 34px;
-  color: #AAA;  
-}
 
 main {
   width: 960px;
@@ -35,6 +24,21 @@ main>img {
   margin: 30px 30px 0 0;
 }
 
+nav ul {
+  display: inline-block;
+  vertical-align: top;
+}
+
+main ul li:last-child {
+  margin-right: 0;
+}
+
+nav li {
+  display: inline-block;
+  line-height: 5px;
+  padding: 34px;
+  color: #AAA;  
+}
 main ul {
   font-size: 0;
 }
@@ -42,10 +46,6 @@ main ul {
 main ul li {
   display: inline-block;
   margin: 30px 30px 30px 0;
-}
-
-main ul li:last-child {
-  margin-right: 0;
 }
 
 main ul+img {
@@ -59,14 +59,6 @@ main h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-main p {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 450px;
-  height: 305px;
-  overflow-y: scroll;
-  font-size: 16px;
-  margin: 0 30px 10px 0;
-}
 
 div {
   display: inline-block;
@@ -78,18 +70,28 @@ div {
   line-height: 30px;
   font-size: 18px;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   word-spacing: 3px;
 }
 
-div:hover {
-  background-color: #888;
+main p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 450px;
+  height: 305px;
+  overflow-y: scroll;
+  font-size: 16px;
+  margin: 0 30px 10px 0;
 }
-
-
 
 footer {
   padding-top: 30px;
-  height: 100px;
+  height: 90px;
   background-color: #444;
 }
+
+
+div:hover {
+  background-color: #888;
+}  
+
+
